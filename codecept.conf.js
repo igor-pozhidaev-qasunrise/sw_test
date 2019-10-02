@@ -5,7 +5,7 @@ exports.config = {
     WebDriver: {
       host: 'localhost',
       port: 4444,
-      url: 'https://www.google.com/',
+      url: 'http://localhost:8080/',
       browser: 'chrome',
       restart: true,
       timeouts: {
@@ -19,6 +19,7 @@ exports.config = {
   },
   include: {
     CS: './custom_steps.js',
+    SwPhone: './pageObjects/SwPhone_pageObjects.js',
   },
   bootstrap: null,
   mocha: {
