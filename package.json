@@ -1,0 +1,19 @@
+{
+  "name": "sw_test",
+  "version": "0.0.1",
+  "description": "sw_test",
+  "main": "codecept.conf.js",
+  "bin": {},
+  "dependencies": {
+    "codeceptjs": "^2.3.2",
+    "mochawesome": "^3.1.2",
+    "webdriverio": "^5.14.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "codeceptjs run",
+    "test_mocha": "codeceptjs run --reporter mochawesome"
+  },
+  "author": "ipozhidaev",
+  "license": "ISC"
+}
